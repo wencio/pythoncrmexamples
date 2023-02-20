@@ -9,6 +9,7 @@ The search_properties method takes in a city, state, minimum number of bedrooms,
 
   Also we added an example of using psycopg2 to connect to a PostgreSQL database and execute some queries for a real estate CRM
 
-
+Finally a simple react UI:
+This component defines a form with input fields for name, email,phone and address and a submit button. When the form is submitted, it sends a POST request to a Python backend API endpoint /api/crm, passing the input data as the request body. The API endpoint can then receive the data and store it in a CRM database.
 
 
