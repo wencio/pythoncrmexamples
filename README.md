@@ -13,4 +13,4 @@ Finally a simple react UI:
 This component defines a form with input fields for name, email,phone and address and a submit button. When the form is submitted, it sends a POST request to a Python backend API endpoint /api/crm, passing the input data as the request body. The API endpoint can then receive the data and store it in a CRM database.
 Adding another simple react UI component for the property inputs .
 
-
+Bonus : This code loads a dataset of real estate data, performs some feature engineering, splits the data into training and testing sets, trains a linear regression model on the training data, evaluates the model on the testing data, and uses the model to predict the price of a new property.
